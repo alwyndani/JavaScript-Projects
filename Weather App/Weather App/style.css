@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(57, 53, 53);
+}
+:root{
+    ---background-color:#156BEB;
+    ---inside-color:white;
+    ---season-color:#D4E649;
+
+}
+.container{
+    background-color: var(---background-color);
+    margin-top: 50px;
+    text-align: center;
+    width: 25%;
+    margin-left: 36%;
+    border-radius: 10px;
+}
+.search{
+    padding: 25px;
+    margin: 5px;
+}
+.input {
+        border-radius: 15px;
+            border: none;
+        padding: 5px;
+        width: 250px;
+      }
+
+.btn-search{
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    background-color: var(---inside-color);
+
+}
+.seasons {
+    border-radius: 10%;
+    width: 146px;
+}
+.weather{
+    margin-top: 30px;
+}
+.city{
+    color: var(---inside-color);
+}
+.amount,h4{
+color:var(---season-color);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.source{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(---inside-color);
+    padding: 10px;
+    margin-top: 65px;
+}
+.resources-humidity {
+    width: 90px;
+    border-radius: 32px;
+    /* margin: 10px; */
+}
+.resources-wind{
+    width: 65px;
+    border-radius: 32px;
+    /* margin: 10px; */
+}

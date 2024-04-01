@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+:root{
+    --backgroundColor:black;
+    --fontColor:#0CD8EB;
+    --other:#0C92EB;
+    ---raius:10px;
+}
+h1{
+    color: var(--backgroundColor);
+    text-align: center;
+}
+.calculator{
+    border: 5px solid var(--other);
+    border-radius: var(---raius);
+    background-color: var(--backgroundColor);
+}
+.rowCol{
+    text-align: center; 
+}
+.row-btn{
+    text-align: center;
+}
+.btn-style{
+    /* width: 43px;
+    height: 46px;
+    margin: 11px; */
+padding: 10px;
+}
+
+.input{
+    text-align:right;
+    font-size: 50px;
+    /* width: 100%; */
+    padding-top:50px;
+    border-radius: 5px;
+    background-color: black;
+    color: antiquewhite;
+}
+.buttons{
+    background-color: var(--fontColor);
+    /* padding: 10px 15px;
+    margin: 5px; */
+    width: 100%;
+    border-radius: var(---raius);
+    height: 50px;
+    box-shadow: var(--fontColor) 0px 3px 6px, var(--fontColor) 0px 3px 6px;}
+.equeltoo-button{
+    background-color: var(--fontColor);
+    /* margin: 5px;
+padding: 10px 50px; */
+width: 100%;
+border-radius: var(---raius);
+height: 50px;
+box-shadow: var(--fontColor) 0px 3px 6px, var(--fontColor) 0px 3px 6px;
+}
